@@ -12,16 +12,16 @@ O resultado final desse percurso são bases de dados tratadas e prontas para uso
 
 O repositório está organizado dentro da pasta Módulo 1, dividida em quatro atividades sequenciais.
 
-### atvd1
+### Unidade 1
 Contém a prévia inicial dos dados, no arquivo `Dados PRF - Prévia.xlsx`. Essa etapa serve como primeiro contato com a base, permitindo reconhecer colunas, tipos de dados e a qualidade geral das informações antes de qualquer tratamento.
 
-### atvd2
+### Unidade 2
 Reúne a análise exploratória feita no Google Sheets, com o arquivo `atvd_02_excel_prf_ruan_gualberto.xlsx` e o link de acesso à planilha online, disponível em `link do sheets.txt`. Nessa fase são construídas tabelas dinâmicas e gráficos cobrindo distribuição espacial dos acidentes, relação entre causa e gravidade, e fatores de risco ambientais e temporais.
 
-### atvd3
+### Unidade 3
 Traz a análise em SQL, no arquivo `atvd_analise_dados_ruan_gualberto.sql`, junto com os resultados exportados em `resultados.xlsx`. O script cria a view `vw_acidentes_base`, que adiciona a coluna `acidente_fatal` a partir da contagem de mortos, e a partir dela calcula métricas gerais como total de acidentes, total de acidentes fatais e percentual de letalidade.
 
-### atvd4
+### Unidade 4
 Reúne a etapa de preparação de dados seguindo o CRISP-DM, feita em Python e Jupyter Notebook, com os notebooks `analise_prf_2025.ipynb` e `modulo4_prf.ipynb`. O objetivo dessa atividade é preparar os dados de acidentes da PRF de 2025 para análise exploratória, uso em Power BI e construção de uma árvore de decisão explicável.
 
 A variável alvo criada é `acidente_fatal`, que recebe valor 1 quando `mortos` é maior ou igual a 1, e 0 caso contrário.
